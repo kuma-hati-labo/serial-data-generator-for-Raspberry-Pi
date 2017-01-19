@@ -2,10 +2,10 @@
 ラズパイで動くシリアルデータ生成プログラム  
 Raspberry-Pi のシリアルポートから循環データを出力し続けます。
 
-serial-data-generator.py <speed>  
+serial-data-generator.py &lt;speed&gt;  
 　0x00-0xFF の循環データを出力
 
-serial-data-generator-A-Z.py <speed>  
+serial-data-generator-A-Z.py &lt;speed&gt;  
 　0x41-0x5A ('A'-'Z') の循環データを出力
 
 開発環境　
